@@ -9,7 +9,10 @@ import { REQUEST } from '@nguniversal/express-engine/tokens';
     <a routerLink="/">Home</a>
     <a routerLink="/lazy">Lazy</a>
     <a routerLink="/d3">D3 Sample</a>
-    <router-outlet></router-outlet>
+    <a routerLink="/dates">Dates Sample</a>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
   `,
   styles: [
     `h1 {

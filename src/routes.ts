@@ -3,5 +3,7 @@
  */
 export const ROUTES: string[] = [
   '/',
-  '/lazy'
+  '/lazy',
+  '/d3',
+  '/dates'
 ];

@@ -14,6 +14,7 @@ import { HomeView } from './home/home-view.component';
       { path: '', component: HomeView, pathMatch: 'full'},
       { path: 'lazy', loadChildren: './+lazy/lazy.module#LazyModule'},
       { path: 'd3', loadChildren: './d3/d3.module#D3Module'},
+      { path: 'dates', loadChildren: './dates/dates.module#DatesModule'}
     ])
   ],
   declarations: [ AppComponent, HomeView ],
