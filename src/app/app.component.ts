@@ -8,6 +8,7 @@ import { REQUEST } from '@nguniversal/express-engine/tokens';
     <h1>Universal Demo using Angular</h1>
     <a routerLink="/">Home</a>
     <a routerLink="/lazy">Lazy</a>
+    <a routerLink="/d3">D3 Sample</a>
     <router-outlet></router-outlet>
   `,
   styles: [

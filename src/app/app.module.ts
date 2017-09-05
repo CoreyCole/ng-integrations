@@ -12,7 +12,8 @@ import { HomeView } from './home/home-view.component';
     HttpModule,
     RouterModule.forRoot([
       { path: '', component: HomeView, pathMatch: 'full'},
-      { path: 'lazy', loadChildren: './+lazy/lazy.module#LazyModule'}
+      { path: 'lazy', loadChildren: './+lazy/lazy.module#LazyModule'},
+      { path: 'd3', loadChildren: './d3/d3.module#D3Module'},
     ])
   ],
   declarations: [ AppComponent, HomeView ],
