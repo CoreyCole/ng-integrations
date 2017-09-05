@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { momentToken, moment } from './moment.lib';
 import { DatesSampleComponent } from './dates-sample.component';
 import { MomentFromNowPipe } from './moment-from-now.pipe';
+import { JquiDatePickerDirective } from './jqui-date-picker.directive';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { MomentFromNowPipe } from './moment-from-now.pipe';
   ],
   declarations: [
     MomentFromNowPipe,
-    DatesSampleComponent
+    DatesSampleComponent,
+    JquiDatePickerDirective
   ],
   providers: [
     { provide: momentToken, useValue: moment }
